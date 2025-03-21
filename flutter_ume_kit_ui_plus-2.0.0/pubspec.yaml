@@ -1,0 +1,31 @@
+name: flutter_ume_kit_ui_plus
+description: UI Kits for flutter_ume_plus.
+version: 2.0.0
+homepage: https://github.com/bytedance/flutter_ume
+
+environment:
+  sdk: ">=2.19.4 <4.0.0"
+  flutter: ">=3.7.7"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_ume_plus: ^3.0.0
+  touch_indicator: ^2.0.0
+
+  # for Cyclop
+  image: ^4.1.3
+  quiver: ^3.2.1
+  basics: ^0.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.2
+  flutter_lints: ^3.0.0
+  flutter_coverage_badge:
+    git:
+      url: https://github.com/smileShirely/flutter_coverage_badge.git
+      ref: 59b7580f406bb712e9d9049c8c99212946e34f65
+
+flutter:
